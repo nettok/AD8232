@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SparkFun-Sensors)(type Legacy)(uri ${KIPRJMOD}/lib/SparkFun-Sensors.lib)(options "")(descr ""))
+)

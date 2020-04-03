@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 211)
     (zones 0)
     (modules 33)
@@ -228,7 +228,7 @@
     (tags "PLATED THROUGH HOLE - 3 PIN")
     (path /5E6EBAD7)
     (attr virtual)
-    (fp_text reference J1 (at 0 -1.905 90) (layer F.SilkS)
+    (fp_text reference J1 (at -2.54 0 90) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_text value Conn_01x03 (at 0 1.905 90) (layer F.SilkS)
@@ -1442,6 +1442,11 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 126.506516 116.89285) (end 176.53 116.84) (layer Edge.Cuts) (width 0.05) (tstamp 5E869F01))
+  (gr_line (start 126.410122 71.105802) (end 126.506516 116.89285) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 176.53 71.12) (end 126.410122 71.105802) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 176.53 116.84) (end 176.53 71.12) (layer Edge.Cuts) (width 0.05))
 
   (via (at 162.56 88.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10))
   (segment (start 158.75 114.3) (end 158.75 109.22) (width 0.25) (layer F.Cu) (net 1))
